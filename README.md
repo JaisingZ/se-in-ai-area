@@ -81,3 +81,40 @@ MVP 的目标是：
 - 保留每条聚合信息的源数据 URL；
 - 通过“数据源 URL 与聚合后信息”的语义比对，确认无差异；
 - 建立抽样核查记录（每天/每周）并统计准确率、重复率与抓取成功率。
+
+---
+
+## 技术架构文档
+
+- MVP 技术架构：`docs/mvp-technical-architecture.md`
+
+## 折中版部署（基于 GitHub）
+
+该方案适合当前 MVP：
+
+- 使用 **GitHub Actions** 定时抓取 Reddit 热点；
+- 将结果写入仓库中的 `data/hotspots.json`；
+- 前端（GitHub Pages / Vercel）直接读取该 JSON 做展示。
+
+### 已提供内容
+
+- 定时任务：`.github/workflows/update-hotspots.yml`（每 6 小时执行一次）
+- 抓取脚本：`scripts/fetch_reddit_hotspots.py`
+- 数据文件：`data/hotspots.json`
+
+### 启用步骤
+
+1. 推送仓库到 GitHub。
+2. 打开仓库 **Settings -> Actions -> General**，确认允许 Workflow 读写仓库内容。
+3. （可选）在 **Settings -> Secrets and variables -> Actions -> Variables** 配置：
+   - `REDDIT_USER_AGENT`（建议自定义，便于限流与追踪）
+   - `REDDIT_SUBREDDITS`（如 `MachineLearning,artificial,LocalLLaMA,AI_Agents`）
+   - `REDDIT_LIMIT`（每个 subreddit 抓取条数，默认 20）
+4. 在 Actions 页面手动执行一次 `Update Reddit hotspots`，确认 `data/hotspots.json` 被更新。
+5. 前端部署时读取 `data/hotspots.json`（静态文件）并按字段渲染列表。
+
+### 注意事项
+
+- 该方案没有独立数据库，适合轻量 MVP；
+- Git 历史会保留每次 JSON 变更，便于回溯；
+- 后续若需要更高稳定性与查询能力，可迁移到“后端 API + DB + Worker”架构。
