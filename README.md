@@ -19,6 +19,25 @@ python scripts/fetch_reddit_hot.py --limit 20 --output data/reddit_hot.json
 - `--output`：输出文件路径
 - `--user-agent`：自定义 User-Agent
 
+
+## GitHub 自动构建（CI）
+
+已新增自动构建流程：`.github/workflows/ci-build.yml`。
+
+触发条件：
+
+- push 到 `main`/`master`
+- Pull Request
+- 手动触发（workflow_dispatch）
+
+流程内容：
+
+1. 检出代码
+2. 使用 Python 3.11
+3. 安装依赖（如存在 `requirements.txt`）
+4. 执行“构建”（`python -m compileall ingestion scripts tests`）
+5. 运行测试（`python -m unittest discover -s tests -v`）
+
 ## 背景与目标
 
 本项目用于**每天定时爬取并聚合网络上的 AI 热点信息**，当前阶段聚焦于 Reddit 热门内容，优先确保数据准确与信息可追溯。
