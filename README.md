@@ -1,5 +1,24 @@
 # se-in-ai-area
 
+项目设计文档见：
+
+- [AI 编程热点新闻聚合站设计](docs/ai-news-aggregator-design.md)
+
+## Reddit 热点抓取（已可用）
+
+执行以下命令抓取 Reddit 热门帖子（默认 AI+编程相关子版块）：
+
+```bash
+python scripts/fetch_reddit_hot.py --limit 20 --output data/reddit_hot.json
+```
+
+可选参数：
+
+- `--subreddits`：逗号分隔子版块，默认 `MachineLearning,LocalLLaMA,programming,learnprogramming,OpenAI`
+- `--limit`：每个子版块抓取数量
+- `--output`：输出文件路径
+- `--user-agent`：自定义 User-Agent
+
 ## 背景与目标
 
 本项目用于**每天定时爬取并聚合网络上的 AI 热点信息**，当前阶段聚焦于 Reddit 热门内容，优先确保数据准确与信息可追溯。
@@ -88,9 +107,8 @@ MVP 的目标是：
 
 - MVP 技术架构：`docs/mvp-technical-architecture.md`
 
-=======
 
-## 折中版部署（基于 GitHub）
+## 部署（基于 GitHub）
 
 该方案适合当前 MVP：
 
@@ -120,3 +138,4 @@ MVP 的目标是：
 - 该方案没有独立数据库，适合轻量 MVP；
 - Git 历史会保留每次 JSON 变更，便于回溯；
 - 后续若需要更高稳定性与查询能力，可迁移到“后端 API + DB + Worker”架构。
+
