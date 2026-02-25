@@ -193,3 +193,13 @@
 - **数据库建表 SQL**，
 - **首批 20 个推荐信源清单**（中英文分组），
 - 以及 **MVP 的两周开发计划**。
+
+## 10. 当前已完成（Reddit 热点抓取）
+
+本仓库已经补充了可运行的 Reddit 抓取能力：
+
+- 核心模块：`ingestion/reddit_hot.py`
+- 命令行入口：`scripts/fetch_reddit_hot.py`
+- 测试：`tests/test_reddit_hot.py`
+
+默认可抓取 `MachineLearning`、`LocalLLaMA`、`programming`、`learnprogramming`、`OpenAI` 五个子版块的 hot 数据，并输出到 `data/reddit_hot.json`。
