@@ -84,6 +84,12 @@ MVP 的目标是：
 
 ---
 
+## 技术架构文档
+
+- MVP 技术架构：`docs/mvp-technical-architecture.md`
+
+=======
+
 ## 折中版部署（基于 GitHub）
 
 该方案适合当前 MVP：
