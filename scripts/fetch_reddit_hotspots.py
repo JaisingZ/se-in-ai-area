@@ -44,8 +44,26 @@ def _env_list(name: str, default: list[str]) -> list[str]:
     return [item.strip() for item in raw.split(",") if item.strip()]
 
 
+def _env_int(name: str, default: int) -> int:
+    raw = os.getenv(name, "").strip()
+    if not raw:
+        return default
+
+    try:
+        value = int(raw)
+    except ValueError:
+        return default
+
+    return value if value > 0 else default
+
+
+def _env_str(name: str, default: str) -> str:
+    raw = os.getenv(name, "")
+    return raw.strip() or default
+
+
 def _user_agent() -> str:
-    return os.getenv("REDDIT_USER_AGENT", "se-in-ai-area/0.1 (by github-actions)")
+    return _env_str("REDDIT_USER_AGENT", "se-in-ai-area/0.1 (by github-actions)")
 
 
 def _build_url(subreddit: str, limit: int) -> str:
@@ -123,7 +141,7 @@ def save(items: list[Hotspot], output_path: Path) -> None:
 
 def main() -> int:
     subreddits = _env_list("REDDIT_SUBREDDITS", DEFAULT_SUBREDDITS)
-    limit = int(os.getenv("REDDIT_LIMIT", str(DEFAULT_LIMIT)))
+    limit = _env_int("REDDIT_LIMIT", DEFAULT_LIMIT)
 
     try:
         items = fetch(subreddits, limit)
