@@ -16,12 +16,18 @@ spec.loader.exec_module(module)
 class EnvIntTests(unittest.TestCase):
     def setUp(self):
         self.original_limit = os.environ.get("REDDIT_LIMIT")
+        self.original_user_agent = os.environ.get("REDDIT_USER_AGENT")
 
     def tearDown(self):
         if self.original_limit is None:
             os.environ.pop("REDDIT_LIMIT", None)
         else:
             os.environ["REDDIT_LIMIT"] = self.original_limit
+
+        if self.original_user_agent is None:
+            os.environ.pop("REDDIT_USER_AGENT", None)
+        else:
+            os.environ["REDDIT_USER_AGENT"] = self.original_user_agent
 
     def test_env_int_uses_default_on_missing_value(self):
         os.environ.pop("REDDIT_LIMIT", None)
@@ -42,6 +48,19 @@ class EnvIntTests(unittest.TestCase):
     def test_env_int_accepts_positive_integer(self):
         os.environ["REDDIT_LIMIT"] = "15"
         self.assertEqual(module._env_int("REDDIT_LIMIT", 20), 15)
+
+
+    def test_user_agent_uses_default_on_missing_value(self):
+        os.environ.pop("REDDIT_USER_AGENT", None)
+        self.assertEqual(module._user_agent(), "se-in-ai-area/0.1 (by github-actions)")
+
+    def test_user_agent_uses_default_on_empty_value(self):
+        os.environ["REDDIT_USER_AGENT"] = ""
+        self.assertEqual(module._user_agent(), "se-in-ai-area/0.1 (by github-actions)")
+
+    def test_user_agent_keeps_configured_value(self):
+        os.environ["REDDIT_USER_AGENT"] = "my-bot/1.0"
+        self.assertEqual(module._user_agent(), "my-bot/1.0")
 
 
 if __name__ == "__main__":

@@ -57,8 +57,13 @@ def _env_int(name: str, default: int) -> int:
     return value if value > 0 else default
 
 
+def _env_str(name: str, default: str) -> str:
+    raw = os.getenv(name, "")
+    return raw.strip() or default
+
+
 def _user_agent() -> str:
-    return os.getenv("REDDIT_USER_AGENT", "se-in-ai-area/0.1 (by github-actions)")
+    return _env_str("REDDIT_USER_AGENT", "se-in-ai-area/0.1 (by github-actions)")
 
 
 def _build_url(subreddit: str, limit: int) -> str:
