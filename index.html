@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI 热点雷达</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #070b14;
+      --panel: rgba(15, 25, 45, 0.78);
+      --line: rgba(84, 172, 255, 0.35);
+      --text: #ecf4ff;
+      --subtext: #9eb4d1;
+      --accent: #5ee6ff;
+      --hot: #ff6d8f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Inter", "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 10% 20%, rgba(95, 230, 255, 0.14), transparent 32%),
+        radial-gradient(circle at 85% 12%, rgba(143, 123, 255, 0.18), transparent 35%),
+        var(--bg);
+      line-height: 1.5;
+    }
+    .layout { width: min(1080px, 92vw); margin: 0 auto; padding: 40px 0 56px; }
+    .hero {
+      border: 1px solid var(--line); border-radius: 20px; padding: 26px;
+      background: linear-gradient(140deg, rgba(28, 44, 74, 0.88), rgba(9, 18, 35, 0.86));
+      box-shadow: inset 0 0 0 1px rgba(94, 230, 255, 0.08), 0 18px 60px rgba(0, 0, 0, 0.35);
+      margin-bottom: 24px;
+    }
+    .tag {
+      display: inline-flex; gap: 8px; align-items: center; padding: 6px 12px;
+      border: 1px solid rgba(94, 230, 255, 0.5); border-radius: 999px; color: var(--accent);
+      font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+    }
+    h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); margin: 14px 0 10px; }
+    .meta { color: var(--subtext); margin: 0; }
+    .feature {
+      margin-top: 20px; border: 1px solid rgba(255, 109, 143, 0.4); border-radius: 14px; padding: 16px;
+      background: linear-gradient(145deg, rgba(82, 14, 44, 0.35), rgba(35, 14, 55, 0.28));
+    }
+    .feature small { color: #ffc7d4; font-weight: 600; letter-spacing: 0.06em; }
+    .feature a { margin-top: 8px; display: inline-block; color: #fff; font-size: 1.05rem; text-decoration: none; font-weight: 600; }
+    .feature a:hover { color: #ffd7e1; }
+    .feature p { color: #ffd2dc; margin: 6px 0 0; font-size: .88rem; }
+    .grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+    .card {
+      background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px;
+      display: flex; flex-direction: column; gap: 8px; min-height: 210px;
+    }
+    .card h3 { margin: 0; font-size: .98rem; }
+    .card a { color: #d5ecff; text-decoration: none; }
+    .card a:hover { color: var(--accent); }
+    .card .summary { color: var(--subtext); font-size: .86rem; flex: 1; }
+    .chip {
+      align-self: flex-start; font-size: 12px; padding: 3px 8px; border-radius: 999px;
+      background: rgba(94, 230, 255, 0.12); color: var(--accent); border: 1px solid rgba(94, 230, 255, 0.26);
+    }
+    .status { margin: 24px 0 0; color: var(--subtext); font-size: .92rem; }
+  </style>
+</head>
+<body>
+  <main class="layout">
+    <section class="hero">
+      <span class="tag">AI Trend Radar</span>
+      <h1>今日 AI 编程热点</h1>
+      <p class="meta" id="last-updated">正在加载最新数据…</p>
+      <div class="feature" id="feature-card">
+        <small>HOT SPOT</small>
+        <div id="feature-content">正在定位最热讨论…</div>
+      </div>
+    </section>
+
+    <section>
+      <div class="grid" id="hotspot-list"></div>
+      <p class="status" id="status"></p>
+    </section>
+  </main>
+
+  <script>
+    const listEl = document.getElementById('hotspot-list');
+    const statusEl = document.getElementById('status');
+    const featureEl = document.getElementById('feature-content');
+    const lastUpdatedEl = document.getElementById('last-updated');
+
+    function formatTime(v) {
+      if (!v) return '未知时间';
+      const date = new Date(v);
+      return Number.isNaN(date.getTime()) ? '未知时间' : date.toLocaleString('zh-CN', { hour12: false });
+    }
+
+    function toHotScore(item) {
+      const score = Number(item.score ?? item.hot_score ?? 0);
+      return Number.isFinite(score) ? score : 0;
+    }
+
+    function resolveUrl(item) {
+      return item.source_url || item.url || '#';
+    }
+
+    function resolveTitle(item) {
+      return item.title || '未命名热点';
+    }
+
+    function resolveSummary(item) {
+      return item.summary || '暂无摘要';
+    }
+
+    function renderFeature(item) {
+      if (!item) {
+        featureEl.innerHTML = '<p>暂无热点数据，请先运行抓取任务。</p>';
+        return;
+      }
+      const title = resolveTitle(item);
+      const url = resolveUrl(item);
+      const summary = resolveSummary(item);
+      featureEl.innerHTML = `
+        <a href="${url}" target="_blank" rel="noopener noreferrer">${title}</a>
+        <p>🔥 热度分：${toHotScore(item)} · 来源：${item.source || 'Reddit'} · 版块：${item.subreddit || '-'}</p>
+        <p>${summary}</p>
+      `;
+    }
+
+    function renderCards(items) {
+      listEl.innerHTML = '';
+      if (!items.length) {
+        const card = document.createElement('article');
+        card.className = 'card';
+        card.innerHTML = '<span class="chip">系统提示</span><h3>暂无热点</h3><div class="summary">当前数据为空，执行抓取脚本后将自动展示热点内容。</div>';
+        listEl.appendChild(card);
+        return;
+      }
+
+      for (const item of items) {
+        const card = document.createElement('article');
+        card.className = 'card';
+        card.innerHTML = `
+          <span class="chip">${item.source || 'Reddit'}</span>
+          <h3><a href="${resolveUrl(item)}" target="_blank" rel="noopener noreferrer">${resolveTitle(item)}</a></h3>
+          <div class="summary">${resolveSummary(item)}</div>
+          <div style="color:var(--subtext);font-size:0.85rem;">热度：${toHotScore(item)} · 评论：${item.num_comments ?? 0}</div>
+          <div style="color:var(--subtext);font-size:0.82rem;">${formatTime(item.published_at || item.created_utc)}</div>
+        `;
+        listEl.appendChild(card);
+      }
+    }
+
+    async function loadHotspots() {
+      try {
+        const res = await fetch('data/hotspots.json', { cache: 'no-store' });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        const items = Array.isArray(data.hotspots) ? data.hotspots : (Array.isArray(data.items) ? data.items : []);
+        const sorted = [...items].sort((a, b) => toHotScore(b) - toHotScore(a));
+        renderFeature(sorted[0]);
+        renderCards(sorted.slice(0, 12));
+        const updatedAt = data.generated_at || data.updated_at || (sorted[0] && (sorted[0].published_at || sorted[0].created_utc));
+        lastUpdatedEl.textContent = `最后更新：${formatTime(updatedAt)}`;
+        statusEl.textContent = `共 ${items.length} 条热点，已展示热度最高的 ${Math.min(12, items.length)} 条。`;
+      } catch (err) {
+        renderFeature(null);
+        renderCards([]);
+        statusEl.textContent = `读取 data/hotspots.json 失败：${err.message}`;
+        lastUpdatedEl.textContent = '请先执行抓取脚本生成数据。';
+      }
+    }
+
+    loadHotspots();
+  </script>
+</body>
+</html>
