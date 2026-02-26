@@ -2,6 +2,7 @@ import importlib.util
 import os
 import sys
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 
@@ -62,6 +63,35 @@ class EnvIntTests(unittest.TestCase):
         os.environ["REDDIT_USER_AGENT"] = "my-bot/1.0"
         self.assertEqual(module._user_agent(), "my-bot/1.0")
 
+
+class MainFlowTests(unittest.TestCase):
+    def test_main_returns_zero_on_http_403_blocked(self):
+        err = module.urllib.error.HTTPError(
+            url="https://www.reddit.com/r/test/hot.json",
+            code=403,
+            msg="Blocked",
+            hdrs=None,
+            fp=None,
+        )
+        with patch.object(module, "fetch", side_effect=err), patch.object(module, "save") as mock_save:
+            rc = module.main()
+
+        self.assertEqual(rc, 0)
+        mock_save.assert_not_called()
+
+    def test_main_returns_non_zero_on_http_500(self):
+        err = module.urllib.error.HTTPError(
+            url="https://www.reddit.com/r/test/hot.json",
+            code=500,
+            msg="Server Error",
+            hdrs=None,
+            fp=None,
+        )
+        with patch.object(module, "fetch", side_effect=err), patch.object(module, "save") as mock_save:
+            rc = module.main()
+
+        self.assertEqual(rc, 1)
+        mock_save.assert_not_called()
 
 if __name__ == "__main__":
     unittest.main()

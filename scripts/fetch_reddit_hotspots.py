@@ -146,6 +146,15 @@ def main() -> int:
     try:
         items = fetch(subreddits, limit)
         save(items, OUTPUT_PATH)
+    except urllib.error.HTTPError as exc:
+        if exc.code == 403:
+            print(
+                "[warn] reddit returned HTTP 403 (Blocked). Skipping update to keep workflow green.",
+                file=sys.stderr,
+            )
+            return 0
+        print(f"[error] failed to update hotspots: {exc}", file=sys.stderr)
+        return 1
     except (urllib.error.URLError, TimeoutError, ValueError, json.JSONDecodeError) as exc:
         print(f"[error] failed to update hotspots: {exc}", file=sys.stderr)
         return 1
