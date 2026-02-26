@@ -93,6 +93,5 @@ class MainFlowTests(unittest.TestCase):
         self.assertEqual(rc, 1)
         mock_save.assert_not_called()
 
-
 if __name__ == "__main__":
     unittest.main()
