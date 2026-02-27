@@ -127,6 +127,35 @@ MVP 的目标是：
 - MVP 技术架构：`docs/mvp-technical-architecture.md`
 
 
+
+### 前端自动部署（GitHub Pages）
+
+已新增自动部署流程：`.github/workflows/deploy-pages.yml`。
+
+触发条件：
+
+- push 到 `main`/`master`
+- 手动触发（workflow_dispatch）
+
+流程内容：
+
+1. 执行构建校验（`python -m compileall ingestion scripts tests`）
+2. 执行测试（`python -m unittest discover -s tests -v`）
+3. 将仓库作为静态站点上传并部署到 GitHub Pages
+
+首次启用：
+
+1. 进入仓库 **Settings -> Pages**；
+2. 在 **Build and deployment** 中选择 **Source: GitHub Actions**；
+3. 推送到 `main`/`master` 后等待 `Deploy static site to GitHub Pages` 完成；
+4. 访问 Actions 输出中的 `page_url` 检查页面效果。
+
+常见问题与修复：
+
+- 若部署失败且日志提示 `Get Pages site failed`：通常是 Pages 未启用，请先按上述步骤打开 Pages。
+- 若部署失败且提示权限不足：在仓库 **Settings -> Actions -> General** 确认 Workflow 权限允许读取仓库内容与写入 Pages。
+- 若页面无数据：确认 `data/hotspots.json` 存在并已被 `Update Reddit hotspots` 工作流更新。
+
 ## 部署（基于 GitHub）
 
 该方案适合当前 MVP：
