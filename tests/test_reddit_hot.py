@@ -52,6 +52,28 @@ class RedditHotTests(unittest.TestCase):
         self.assertEqual(posts[0].score, 123)
         self.assertEqual(posts[0].num_comments, 45)
 
+
+    def test_fetch_hot_posts_parses_iso_timestamp_and_embedded_score(self):
+        payload = """<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <entry>
+    <id>t3_iso001</id>
+    <title>ISO timestamp post</title>
+    <updated>2026-02-28T10:05:36+00:00</updated>
+    <author><name>carol</name></author>
+    <content type="html">&lt;p&gt;987 points 65 comments&lt;/p&gt;</content>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/iso001/demo/"/>
+  </entry>
+</feed>
+"""
+
+        with patch("ingestion.reddit_hot.urlopen", return_value=FakeResponse(payload)):
+            posts = RedditClient(user_agent="test-agent").fetch_hot_posts("MachineLearning", limit=1)
+
+        self.assertEqual(posts[0].score, 987)
+        self.assertEqual(posts[0].num_comments, 65)
+        self.assertGreater(posts[0].created_utc, 0)
+
     def test_sort_hot_posts(self):
         with patch("ingestion.reddit_hot.urlopen", return_value=FakeResponse(XML_PAYLOAD)):
             posts = RedditClient(user_agent="test-agent").fetch_hot_posts("MachineLearning", limit=2)

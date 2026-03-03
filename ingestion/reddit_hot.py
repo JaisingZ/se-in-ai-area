@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, asdict
+from datetime import datetime
 from email.utils import parsedate_to_datetime
 import re
 import time
@@ -16,7 +17,7 @@ REDDIT_BASE_URL = "https://www.reddit.com"
 ATOM_NS = {"atom": "http://www.w3.org/2005/Atom"}
 DEFAULT_USER_AGENT = "se-in-ai-area-bot/0.2 (+https://www.reddit.com/)"
 
-_SCORE_RE = re.compile(r"^(?P<score>\d+) points?")
+_SCORE_RE = re.compile(r"(?P<score>\d+) points?")
 _COMMENTS_RE = re.compile(r"(?P<comments>\d+) comments?")
 
 
@@ -62,9 +63,7 @@ class RedditClient:
             title = self._get_text(entry, "atom:title")
             author = self._get_text(entry, "atom:author/atom:name")
             published = self._get_text(entry, "atom:updated") or self._get_text(entry, "atom:published")
-            created_utc = (
-                parsedate_to_datetime(published).timestamp() if published and "," in published else 0.0
-            )
+            created_utc = self._parse_timestamp(published)
 
             link = entry.find("atom:link", ATOM_NS)
             permalink = link.attrib.get("href", "") if link is not None else ""
@@ -104,6 +103,18 @@ class RedditClient:
             if sleep_seconds > 0 and idx < len(subreddit_list) - 1:
                 time.sleep(sleep_seconds)
         return combined
+
+    @staticmethod
+    def _parse_timestamp(value: str) -> float:
+        if not value:
+            return 0.0
+
+        try:
+            if "," in value:
+                return parsedate_to_datetime(value).timestamp()
+            return datetime.fromisoformat(value.replace("Z", "+00:00")).timestamp()
+        except ValueError:
+            return 0.0
 
     @staticmethod
     def _extract_metric(pattern: re.Pattern, text: str) -> int:
