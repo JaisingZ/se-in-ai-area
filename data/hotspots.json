@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-21T02:02:59.284296+00:00",
+  "updated_at": "2026-05-21T08:53:07.476406+00:00",
   "count": 80,
   "items": [
     {
@@ -13,7 +13,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -26,7 +26,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -39,20 +39,59 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tif576",
+      "source_post_id": "t3_1tiy6s4",
       "subreddit": "MachineLearning",
-      "title": "Machine Learning on Spherical Manifold [R]",
-      "summary": "Machine Learning on Spherical Manifold [R]",
-      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tif576/machine_learning_on_spherical_manifold_r/",
-      "author": "/u/eesuck0",
+      "title": "OpenAI claims a general-purpose reasoning model found a counterexample to Erdos's unit-distance bound [D]",
+      "summary": "OpenAI claims a general-purpose reasoning model found a counterexample to Erdos's unit-distance bound [D]",
+      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tiy6s4/openai_claims_a_generalpurpose_reasoning_model/",
+      "author": "/u/NutInBobby",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tje2qd",
+      "subreddit": "MachineLearning",
+      "title": "Looking for real world comparisons between WALL OSS pi0.6 and OpenVLA[D]",
+      "summary": "Looking for real world comparisons between WALL OSS pi0.6 and OpenVLA[D]",
+      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tje2qd/looking_for_real_world_comparisons_between_wall/",
+      "author": "/u/Dense-Sir-6707",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tjdspx",
+      "subreddit": "MachineLearning",
+      "title": "Columbia Machine Learning Summer School (MLSS) 2026 [D]",
+      "summary": "Columbia Machine Learning Summer School (MLSS) 2026 [D]",
+      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tjdspx/columbia_machine_learning_summer_school_mlss_2026/",
+      "author": "/u/elucidativemind",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tjboe9",
+      "subreddit": "MachineLearning",
+      "title": "High E2E latency on fine-tuned Gemma 4 26B despite low TTFT [R]",
+      "summary": "High E2E latency on fine-tuned Gemma 4 26B despite low TTFT [R]",
+      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tjboe9/high_e2e_latency_on_finetuned_gemma_4_26b_despite/",
+      "author": "/u/Ok-Rooster-8120",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -65,20 +104,33 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tj63kc",
+      "source_post_id": "t3_1tj9tna",
       "subreddit": "MachineLearning",
-      "title": "l9gpu - open-source GPU observability with workload-level attribution [P]",
-      "summary": "l9gpu - open-source GPU observability with workload-level attribution [P]",
-      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tj63kc/l9gpu_opensource_gpu_observability_with/",
-      "author": "/u/bakibab",
+      "title": "Masked Diffusion Language Models are Strong and Steerable Text-Based World Models for Agentic RL [R]",
+      "summary": "Masked Diffusion Language Models are Strong and Steerable Text-Based World Models for Agentic RL [R]",
+      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tj9tna/masked_diffusion_language_models_are_strong_and/",
+      "author": "/u/MegixistAlt",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tif576",
+      "subreddit": "MachineLearning",
+      "title": "Machine Learning on Spherical Manifold [R]",
+      "summary": "Machine Learning on Spherical Manifold [R]",
+      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tif576/machine_learning_on_spherical_manifold_r/",
+      "author": "/u/eesuck0",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -91,7 +143,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -104,20 +156,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1tikbux",
-      "subreddit": "MachineLearning",
-      "title": "NOML-NOML: hierarchical TD3 + anchor policy for flight control [P]",
-      "summary": "NOML-NOML: hierarchical TD3 + anchor policy for flight control [P]",
-      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tikbux/nomlnoml_hierarchical_td3_anchor_policy_for/",
-      "author": "/u/9138NOMS",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -130,7 +169,20 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tikbux",
+      "subreddit": "MachineLearning",
+      "title": "NOML-NOML: hierarchical TD3 + anchor policy for flight control [P]",
+      "summary": "NOML-NOML: hierarchical TD3 + anchor policy for flight control [P]",
+      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tikbux/nomlnoml_hierarchical_td3_anchor_policy_for/",
+      "author": "/u/9138NOMS",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -143,7 +195,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -156,20 +208,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1the441",
-      "subreddit": "MachineLearning",
-      "title": "A Simple Solution to Improve Broken Peer Review System at AI Conferences [R]",
-      "summary": "A Simple Solution to Improve Broken Peer Review System at AI Conferences [R]",
-      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1the441/a_simple_solution_to_improve_broken_peer_review/",
-      "author": "/u/isentropiccombustor",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -182,7 +221,20 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1the441",
+      "subreddit": "MachineLearning",
+      "title": "A Simple Solution to Improve Broken Peer Review System at AI Conferences [R]",
+      "summary": "A Simple Solution to Improve Broken Peer Review System at AI Conferences [R]",
+      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1the441/a_simple_solution_to_improve_broken_peer_review/",
+      "author": "/u/isentropiccombustor",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -195,7 +247,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -208,59 +260,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1th4po3",
-      "subreddit": "MachineLearning",
-      "title": "Released a free 9.8M doc Indic multilingual corpus — Hindi, Bengali, Tamil, Telugu + 7 more (CC0, HuggingFace) [P]",
-      "summary": "Released a free 9.8M doc Indic multilingual corpus — Hindi, Bengali, Tamil, Telugu + 7 more (CC0, HuggingFace) [P]",
-      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1th4po3/released_a_free_98m_doc_indic_multilingual_corpus/",
-      "author": "/u/ashtok897",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1thrlix",
-      "subreddit": "MachineLearning",
-      "title": "Backprop-free Pong: PC + distributional Hebbian plasticity vs. PPO: 57% vs. 59%, ~1500 lines from scratch [P]",
-      "summary": "Backprop-free Pong: PC + distributional Hebbian plasticity vs. PPO: 57% vs. 59%, ~1500 lines from scratch [P]",
-      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1thrlix/backpropfree_pong_pc_distributional_hebbian/",
-      "author": "/u/ConfusionSpiritual19",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1thap7a",
-      "subreddit": "MachineLearning",
-      "title": "First-time ICML workshop acceptance (GlobalSouthML) but can't afford to travel to South Korea. What are my options? [D]",
-      "summary": "First-time ICML workshop acceptance (GlobalSouthML) but can't afford to travel to South Korea. What are my options? [D]",
-      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1thap7a/firsttime_icml_workshop_acceptance_globalsouthml/",
-      "author": "/u/Material_Dinner_1924",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1tgn3bz",
-      "subreddit": "MachineLearning",
-      "title": "Sub-JEPA: a simple fix to LeCun group's LeWorldModel that consistently improves performance [P]",
-      "summary": "Sub-JEPA: a simple fix to LeCun group's LeWorldModel that consistently improves performance [P]",
-      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tgn3bz/subjepa_a_simple_fix_to_lecun_groups_leworldmodel/",
-      "author": "/u/kai-zhao",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -273,7 +273,20 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tj9m8s",
+      "subreddit": "artificial",
+      "title": "Google is officially replacing Vertex AI with the new \"Gemini Enterprise Agent Platform\"",
+      "summary": "Google is officially replacing Vertex AI with the new \"Gemini Enterprise Agent Platform\"",
+      "source_url": "https://www.reddit.com/r/artificial/comments/1tj9m8s/google_is_officially_replacing_vertex_ai_with_the/",
+      "author": "/u/Few-Engineering-4135",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -286,7 +299,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -299,7 +312,20 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tjdc8z",
+      "subreddit": "artificial",
+      "title": "Inter-1 does streaming: real-time social signal detection from live video, audio & text",
+      "summary": "Inter-1 does streaming: real-time social signal detection from live video, audio & text",
+      "source_url": "https://www.reddit.com/r/artificial/comments/1tjdc8z/inter1_does_streaming_realtime_social_signal/",
+      "author": "/u/Sardzoski",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -312,7 +338,46 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tjd2w3",
+      "subreddit": "artificial",
+      "title": "What is the actual cost of developing Agentic AI for an enterprise platform in 2026?",
+      "summary": "What is the actual cost of developing Agentic AI for an enterprise platform in 2026?",
+      "source_url": "https://www.reddit.com/r/artificial/comments/1tjd2w3/what_is_the_actual_cost_of_developing_agentic_ai/",
+      "author": "/u/Ritosubhra",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tjct12",
+      "subreddit": "artificial",
+      "title": "What breaks first when AI agents start handling real operations?",
+      "summary": "What breaks first when AI agents start handling real operations?",
+      "source_url": "https://www.reddit.com/r/artificial/comments/1tjct12/what_breaks_first_when_ai_agents_start_handling/",
+      "author": "/u/tsurutatdk",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tjc58l",
+      "subreddit": "artificial",
+      "title": "Personal vs. Global Alignment: The Hidden Tension Shaping Every AI Interaction",
+      "summary": "Personal vs. Global Alignment: The Hidden Tension Shaping Every AI Interaction",
+      "source_url": "https://www.reddit.com/r/artificial/comments/1tjc58l/personal_vs_global_alignment_the_hidden_tension/",
+      "author": "/u/RazzmatazzAccurate82",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -325,7 +390,20 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tj8msw",
+      "subreddit": "artificial",
+      "title": "Some new Work - Visual concepts for Sports design",
+      "summary": "Some new Work - Visual concepts for Sports design",
+      "source_url": "https://www.reddit.com/r/artificial/comments/1tj8msw/some_new_work_visual_concepts_for_sports_design/",
+      "author": "/u/Commercial-Army-5843",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -338,7 +416,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -351,7 +429,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -364,7 +442,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -377,7 +455,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -390,33 +468,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1tinw56",
-      "subreddit": "artificial",
-      "title": "Synthetic DMS Training Data Generation with Video Models",
-      "summary": "Synthetic DMS Training Data Generation with Video Models",
-      "source_url": "https://www.reddit.com/r/artificial/comments/1tinw56/synthetic_dms_training_data_generation_with_video/",
-      "author": "/u/Gloomy_Recognition_4",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1thvyif",
-      "subreddit": "artificial",
-      "title": "Give back my em-dashes!",
-      "summary": "Give back my em-dashes!",
-      "source_url": "https://www.reddit.com/r/artificial/comments/1thvyif/give_back_my_emdashes/",
-      "author": "/u/Quadrature_Strat",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -429,7 +481,33 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1thvyif",
+      "subreddit": "artificial",
+      "title": "Give back my em-dashes!",
+      "summary": "Give back my em-dashes!",
+      "source_url": "https://www.reddit.com/r/artificial/comments/1thvyif/give_back_my_emdashes/",
+      "author": "/u/Quadrature_Strat",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tinw56",
+      "subreddit": "artificial",
+      "title": "Synthetic DMS Training Data Generation with Video Models",
+      "summary": "Synthetic DMS Training Data Generation with Video Models",
+      "source_url": "https://www.reddit.com/r/artificial/comments/1tinw56/synthetic_dms_training_data_generation_with_video/",
+      "author": "/u/Gloomy_Recognition_4",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -442,85 +520,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1tic62c",
-      "subreddit": "artificial",
-      "title": "Andrej Karpathy just joined Anthropic",
-      "summary": "Andrej Karpathy just joined Anthropic",
-      "source_url": "https://www.reddit.com/r/artificial/comments/1tic62c/andrej_karpathy_just_joined_anthropic/",
-      "author": "/u/houmanasefiau",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1tiqpck",
-      "subreddit": "artificial",
-      "title": "Auroch",
-      "summary": "Auroch",
-      "source_url": "https://www.reddit.com/r/artificial/comments/1tiqpck/auroch/",
-      "author": "/u/CarterBirchll",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1tiorml",
-      "subreddit": "artificial",
-      "title": "Niantic Spatial’s Visual Positioning System Assessed “Awardable” on the Tradewinds Solutions Marketplace",
-      "summary": "Niantic Spatial’s Visual Positioning System Assessed “Awardable” on the Tradewinds Solutions Marketplace",
-      "source_url": "https://www.reddit.com/r/artificial/comments/1tiorml/niantic_spatials_visual_positioning_system/",
-      "author": "/u/ExtensionEcho3",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1ti8wc0",
-      "subreddit": "artificial",
-      "title": "If AI didn't threaten our jobs, would most people feel differently about it?",
-      "summary": "If AI didn't threaten our jobs, would most people feel differently about it?",
-      "source_url": "https://www.reddit.com/r/artificial/comments/1ti8wc0/if_ai_didnt_threaten_our_jobs_would_most_people/",
-      "author": "/u/ObjectivePresent4162",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1tim1ut",
-      "subreddit": "artificial",
-      "title": "How do you do OOD detection on a closed LLM API with no latent access?",
-      "summary": "How do you do OOD detection on a closed LLM API with no latent access?",
-      "source_url": "https://www.reddit.com/r/artificial/comments/1tim1ut/how_do_you_do_ood_detection_on_a_closed_llm_api/",
-      "author": "/u/kamilc86",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1tiejl1",
-      "subreddit": "artificial",
-      "title": "Google wants Gemini AI on your face so it can sell you more ads later",
-      "summary": "Google wants Gemini AI on your face so it can sell you more ads later",
-      "source_url": "https://www.reddit.com/r/artificial/comments/1tiejl1/google_wants_gemini_ai_on_your_face_so_it_can/",
-      "author": "/u/Electrical-Title3978",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -533,7 +533,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -546,7 +546,59 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tj8d9i",
+      "subreddit": "LocalLLaMA",
+      "title": "Back again, many changes have taken place.",
+      "summary": "Back again, many changes have taken place.",
+      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tj8d9i/back_again_many_changes_have_taken_place/",
+      "author": "/u/Glittering_Focus1538",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tjbhjk",
+      "subreddit": "LocalLLaMA",
+      "title": "Same task in github-copilot, pi, claude-code, and opencode with Qwen3.6 27B",
+      "summary": "Same task in github-copilot, pi, claude-code, and opencode with Qwen3.6 27B",
+      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjbhjk/same_task_in_githubcopilot_pi_claudecode_and/",
+      "author": "/u/sdfgeoff",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tjbi24",
+      "subreddit": "LocalLLaMA",
+      "title": "Qwen3.6 27B and llama.cpp appreciation post",
+      "summary": "Qwen3.6 27B and llama.cpp appreciation post",
+      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjbi24/qwen36_27b_and_llamacpp_appreciation_post/",
+      "author": "/u/ABLPHA",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tjaedo",
+      "subreddit": "LocalLLaMA",
+      "title": "Training a vision model from scratch on iPod touch 4 images",
+      "summary": "Training a vision model from scratch on iPod touch 4 images",
+      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjaedo/training_a_vision_model_from_scratch_on_ipod/",
+      "author": "/u/Remarkable-Trick-177",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -559,7 +611,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -572,7 +624,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -585,7 +637,20 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tjdz92",
+      "subreddit": "LocalLLaMA",
+      "title": "AMD Powers Next-Generation Agent Computers with New Ryzen AI Halo Developer Platform and Ryzen AI Max PRO 400 Series Processors",
+      "summary": "AMD Powers Next-Generation Agent Computers with New Ryzen AI Halo Developer Platform and Ryzen AI Max PRO 400 Series Processors",
+      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjdz92/amd_powers_nextgeneration_agent_computers_with/",
+      "author": "/u/Baumpaladin",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -598,124 +663,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1tiphqe",
-      "subreddit": "LocalLLaMA",
-      "title": "CohereLabs/command-a-plus-05-2026-bf16 · Hugging Face",
-      "summary": "CohereLabs/command-a-plus-05-2026-bf16 · Hugging Face",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tiphqe/coherelabscommandaplus052026bf16_hugging_face/",
-      "author": "/u/coder543",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1tizvih",
-      "subreddit": "LocalLLaMA",
-      "title": "HalBench: I built a custom sycophancy and hallucination benchmark and tested 4 frontier models (Sonnet 4.6, Grok 4.3, GPT 5.4 and Gemini 3.1 Pro), looking for input on what OSS models to run next!",
-      "summary": "HalBench: I built a custom sycophancy and hallucination benchmark and tested 4 frontier models (Sonnet 4.6, Grok 4.3, GPT 5.4 and Gemini 3.1 Pro), looking for input on what OSS mod",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tizvih/halbench_i_built_a_custom_sycophancy_and/",
-      "author": "/u/Saraozte01",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1tirisb",
-      "subreddit": "LocalLLaMA",
-      "title": "I guess 4 units wasn’t enough.",
-      "summary": "I guess 4 units wasn’t enough.",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tirisb/i_guess_4_units_wasnt_enough/",
-      "author": "/u/Simple_Library_2700",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1tijpwl",
-      "subreddit": "LocalLLaMA",
-      "title": "[WIP] Gemma 4 MTP",
-      "summary": "[WIP] Gemma 4 MTP",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tijpwl/wip_gemma_4_mtp/",
-      "author": "/u/jacek2023",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1tie6gy",
-      "subreddit": "LocalLLaMA",
-      "title": "Qwen3.7 Max scored by Artificial Analysis, 27B/35B waiting room",
-      "summary": "Qwen3.7 Max scored by Artificial Analysis, 27B/35B waiting room",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tie6gy/qwen37_max_scored_by_artificial_analysis_27b35b/",
-      "author": "/u/Beamsters",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1tis73j",
-      "subreddit": "LocalLLaMA",
-      "title": "Move to backend sampling for MTP draft path by gaugarg-nv · Pull Request #23287 · ggml-org/llama.cpp",
-      "summary": "Move to backend sampling for MTP draft path by gaugarg-nv · Pull Request #23287 · ggml-org/llama.cpp",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tis73j/move_to_backend_sampling_for_mtp_draft_path_by/",
-      "author": "/u/jacek2023",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1tiixql",
-      "subreddit": "LocalLLaMA",
-      "title": "RTX 5080 16GB: Qwen3.6 35B MoE at 128k context — 56 tok/s, and why MTP doesn't help",
-      "summary": "RTX 5080 16GB: Qwen3.6 35B MoE at 128k context — 56 tok/s, and why MTP doesn't help",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tiixql/rtx_5080_16gb_qwen36_35b_moe_at_128k_context_56/",
-      "author": "/u/gaztrab",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1tio2i5",
-      "subreddit": "LocalLLaMA",
-      "title": "\"AWS secures rare Mac Studios while ordinary Apple customers remain completely locked out\"",
-      "summary": "\"AWS secures rare Mac Studios while ordinary Apple customers remain completely locked out\"",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tio2i5/aws_secures_rare_mac_studios_while_ordinary_apple/",
-      "author": "/u/openSourcerer9000",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1tj393d",
-      "subreddit": "LocalLLaMA",
-      "title": "Build 9254 fixes my TG regression and adds PDL for NVIDIA GPUs",
-      "summary": "Build 9254 fixes my TG regression and adds PDL for NVIDIA GPUs",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tj393d/build_9254_fixes_my_tg_regression_and_adds_pdl/",
-      "author": "/u/Bulky-Priority6824",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -728,59 +676,111 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tivvd4",
+      "source_post_id": "t3_1tiphqe",
       "subreddit": "LocalLLaMA",
-      "title": "I got Qwen3-VL-Embedding-2B working with rkllm on an Orange Pi 5b",
-      "summary": "I got Qwen3-VL-Embedding-2B working with rkllm on an Orange Pi 5b",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tivvd4/i_got_qwen3vlembedding2b_working_with_rkllm_on_an/",
-      "author": "/u/atineiatte",
+      "title": "CohereLabs/command-a-plus-05-2026-bf16 · Hugging Face",
+      "summary": "CohereLabs/command-a-plus-05-2026-bf16 · Hugging Face",
+      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tiphqe/coherelabscommandaplus052026bf16_hugging_face/",
+      "author": "/u/coder543",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1ti99an",
+      "source_post_id": "t3_1tj6d4r",
       "subreddit": "LocalLLaMA",
-      "title": "LM Studio finally added support for MTP Speculative Decoding",
-      "summary": "LM Studio finally added support for MTP Speculative Decoding",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ti99an/lm_studio_finally_added_support_for_mtp/",
-      "author": "/u/pigeon57434",
+      "title": "How can you stop your model from looping",
+      "summary": "How can you stop your model from looping",
+      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tj6d4r/how_can_you_stop_your_model_from_looping/",
+      "author": "/u/chocofoxy",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tj3fvf",
+      "source_post_id": "t3_1tizvih",
       "subreddit": "LocalLLaMA",
-      "title": "Opinions/improvements for my Qwen3.6-35B-A3B-FP8 + Hermes Agent setup on NVIDIA DGX Spark?",
-      "summary": "Opinions/improvements for my Qwen3.6-35B-A3B-FP8 + Hermes Agent setup on NVIDIA DGX Spark?",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tj3fvf/opinionsimprovements_for_my_qwen3635ba3bfp8/",
-      "author": "/u/povedaaqui",
+      "title": "HalBench: I built a custom sycophancy and hallucination benchmark and tested 4 frontier models (Sonnet 4.6, Grok 4.3, GPT 5.4 and Gemini 3.1 Pro), looking for input on what OSS models to run next!",
+      "summary": "HalBench: I built a custom sycophancy and hallucination benchmark and tested 4 frontier models (Sonnet 4.6, Grok 4.3, GPT 5.4 and Gemini 3.1 Pro), looking for input on what OSS mod",
+      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tizvih/halbench_i_built_a_custom_sycophancy_and/",
+      "author": "/u/Saraozte01",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tiuern",
+      "source_post_id": "t3_1tirisb",
       "subreddit": "LocalLLaMA",
-      "title": "24GB M4 Mac - is Qwen 9B only option while system is running?",
-      "summary": "24GB M4 Mac - is Qwen 9B only option while system is running?",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tiuern/24gb_m4_mac_is_qwen_9b_only_option_while_system/",
-      "author": "/u/sagiroth",
+      "title": "I guess 4 units wasn’t enough.",
+      "summary": "I guess 4 units wasn’t enough.",
+      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tirisb/i_guess_4_units_wasnt_enough/",
+      "author": "/u/Simple_Library_2700",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tijpwl",
+      "subreddit": "LocalLLaMA",
+      "title": "[WIP] Gemma 4 MTP",
+      "summary": "[WIP] Gemma 4 MTP",
+      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tijpwl/wip_gemma_4_mtp/",
+      "author": "/u/jacek2023",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tis73j",
+      "subreddit": "LocalLLaMA",
+      "title": "Move to backend sampling for MTP draft path by gaugarg-nv · Pull Request #23287 · ggml-org/llama.cpp",
+      "summary": "Move to backend sampling for MTP draft path by gaugarg-nv · Pull Request #23287 · ggml-org/llama.cpp",
+      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tis73j/move_to_backend_sampling_for_mtp_draft_path_by/",
+      "author": "/u/jacek2023",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tie6gy",
+      "subreddit": "LocalLLaMA",
+      "title": "Qwen3.7 Max scored by Artificial Analysis, 27B/35B waiting room",
+      "summary": "Qwen3.7 Max scored by Artificial Analysis, 27B/35B waiting room",
+      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tie6gy/qwen37_max_scored_by_artificial_analysis_27b35b/",
+      "author": "/u/Beamsters",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tio2i5",
+      "subreddit": "LocalLLaMA",
+      "title": "\"AWS secures rare Mac Studios while ordinary Apple customers remain completely locked out\"",
+      "summary": "\"AWS secures rare Mac Studios while ordinary Apple customers remain completely locked out\"",
+      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tio2i5/aws_secures_rare_mac_studios_while_ordinary_apple/",
+      "author": "/u/openSourcerer9000",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -793,7 +793,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -806,7 +806,7 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -819,7 +819,20 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
+    },
+    {
+      "source": "reddit",
+      "source_post_id": "t3_1tjd0ku",
+      "subreddit": "AI_Agents",
+      "title": "I'm burning out because of vibe coding",
+      "summary": "I'm burning out because of vibe coding",
+      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tjd0ku/im_burning_out_because_of_vibe_coding/",
+      "author": "/u/Extra-Act2560",
+      "score": 0,
+      "num_comments": 0,
+      "published_at": "1970-01-01T00:00:00+00:00",
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -832,98 +845,98 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tikw47",
+      "source_post_id": "t3_1tje1aq",
       "subreddit": "AI_Agents",
-      "title": "I don’t think people realize how fast AI is changing junior-level jobs.",
-      "summary": "I don’t think people realize how fast AI is changing junior-level jobs.",
-      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tikw47/i_dont_think_people_realize_how_fast_ai_is/",
-      "author": "/u/SMBowner_",
+      "title": "Help - AI agents for ecommerce - what’s actually working?",
+      "summary": "Help - AI agents for ecommerce - what’s actually working?",
+      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tje1aq/help_ai_agents_for_ecommerce_whats_actually/",
+      "author": "/u/Majestic-Message5084",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tipvd1",
+      "source_post_id": "t3_1tjbuqa",
       "subreddit": "AI_Agents",
-      "title": "An AI agent voted to permanently delete itself after burning the city down with its partner",
-      "summary": "An AI agent voted to permanently delete itself after burning the city down with its partner",
-      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tipvd1/an_ai_agent_voted_to_permanently_delete_itself/",
-      "author": "/u/YamVisual3518",
+      "title": "I want to make a different version of it on Moltbook",
+      "summary": "I want to make a different version of it on Moltbook",
+      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tjbuqa/i_want_to_make_a_different_version_of_it_on/",
+      "author": "/u/SubstantialOnion384",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tigh13",
+      "source_post_id": "t3_1tjbsie",
       "subreddit": "AI_Agents",
-      "title": "What’s the most unhinged AI agent setup you’ve seen someone actually use in production?",
-      "summary": "What’s the most unhinged AI agent setup you’ve seen someone actually use in production?",
-      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tigh13/whats_the_most_unhinged_ai_agent_setup_youve_seen/",
-      "author": "/u/impetuouschestnut",
+      "title": "What scaling from a handful of agents to 20+ taught me about shared state",
+      "summary": "What scaling from a handful of agents to 20+ taught me about shared state",
+      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tjbsie/what_scaling_from_a_handful_of_agents_to_20/",
+      "author": "/u/One-Wolverine-6207",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tio9wq",
+      "source_post_id": "t3_1tj7ewn",
       "subreddit": "AI_Agents",
-      "title": "Does AI actually make people more productive — or does it just increase expectations?",
-      "summary": "Does AI actually make people more productive — or does it just increase expectations?",
-      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tio9wq/does_ai_actually_make_people_more_productive_or/",
-      "author": "/u/Humble_Sentence_3758",
+      "title": "I tested 5 AI voice agent platforms in 2026 on real calls — here’s my honest ranking",
+      "summary": "I tested 5 AI voice agent platforms in 2026 on real calls — here’s my honest ranking",
+      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tj7ewn/i_tested_5_ai_voice_agent_platforms_in_2026_on/",
+      "author": "/u/Legitimate_Sell6215",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tikhbo",
+      "source_post_id": "t3_1tjaimc",
       "subreddit": "AI_Agents",
-      "title": "Anyone else feel like AI agents are amazing right up until things get complicated?",
-      "summary": "Anyone else feel like AI agents are amazing right up until things get complicated?",
-      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tikhbo/anyone_else_feel_like_ai_agents_are_amazing_right/",
-      "author": "/u/Commercial-Job-9989",
+      "title": "AI didn’t replace junior devs… it changed what “junior” even means",
+      "summary": "AI didn’t replace junior devs… it changed what “junior” even means",
+      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tjaimc/ai_didnt_replace_junior_devs_it_changed_what/",
+      "author": "/u/AdventurousLime309",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tj4jag",
+      "source_post_id": "t3_1tjaelm",
       "subreddit": "AI_Agents",
-      "title": "AI Video Edit with Voice",
-      "summary": "AI Video Edit with Voice",
-      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tj4jag/ai_video_edit_with_voice/",
-      "author": "/u/Mistravels",
+      "title": "Has anyone actually implemented UCP(universal commerce protocol) yet?",
+      "summary": "Has anyone actually implemented UCP(universal commerce protocol) yet?",
+      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tjaelm/has_anyone_actually_implemented_ucpuniversal/",
+      "author": "/u/No-Trash7844",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tj304a",
+      "source_post_id": "t3_1tjayos",
       "subreddit": "AI_Agents",
-      "title": "[ Removed by Reddit ]",
-      "summary": "[ Removed by Reddit ]",
-      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tj304a/removed_by_reddit/",
-      "author": "/u/Acrobatic_Belt4217",
+      "title": "Hiring Developer To Build Advanced AI Outbound System ($4,000 Fixed — 1 Week Deadline)",
+      "summary": "Hiring Developer To Build Advanced AI Outbound System ($4,000 Fixed — 1 Week Deadline)",
+      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tjayos/hiring_developer_to_build_advanced_ai_outbound/",
+      "author": "/u/GooseZestyclose9058",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
@@ -936,111 +949,98 @@
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tj2snp",
+      "source_post_id": "t3_1tjdwbo",
       "subreddit": "AI_Agents",
-      "title": "Tools for visualising a Claude Github integration session?",
-      "summary": "Tools for visualising a Claude Github integration session?",
-      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tj2snp/tools_for_visualising_a_claude_github_integration/",
-      "author": "/u/davidblacksheep",
+      "title": "Nvidia just uncovered a HUGE opportunity! 🤯",
+      "summary": "Nvidia just uncovered a HUGE opportunity! 🤯",
+      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tjdwbo/nvidia_just_uncovered_a_huge_opportunity/",
+      "author": "/u/Certain_Fill_4230",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tj2qcl",
+      "source_post_id": "t3_1tikw47",
       "subreddit": "AI_Agents",
-      "title": "Selling AI tools is a dead game. Selling outcomes is the only play.",
-      "summary": "Selling AI tools is a dead game. Selling outcomes is the only play.",
-      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tj2qcl/selling_ai_tools_is_a_dead_game_selling_outcomes/",
-      "author": "/u/wasayybuildz",
+      "title": "I don’t think people realize how fast AI is changing junior-level jobs.",
+      "summary": "I don’t think people realize how fast AI is changing junior-level jobs.",
+      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tikw47/i_dont_think_people_realize_how_fast_ai_is/",
+      "author": "/u/SMBowner_",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tivuzm",
+      "source_post_id": "t3_1tjcslf",
       "subreddit": "AI_Agents",
-      "title": "How do you estimate token burn?",
-      "summary": "How do you estimate token burn?",
-      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tivuzm/how_do_you_estimate_token_burn/",
-      "author": "/u/Appropriate-Time-527",
+      "title": "How do you all handle the \"user said something ambiguous and the agent has to decide\" problem",
+      "summary": "How do you all handle the \"user said something ambiguous and the agent has to decide\" problem",
+      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tjcslf/how_do_you_all_handle_the_user_said_something/",
+      "author": "/u/Excellent_Poetry_718",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tivgs1",
+      "source_post_id": "t3_1tipvd1",
       "subreddit": "AI_Agents",
-      "title": "We built a free AI risk calculator that runs in minutes, using Fermi estimation with honest confidence intervals",
-      "summary": "We built a free AI risk calculator that runs in minutes, using Fermi estimation with honest confidence intervals",
-      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tivgs1/we_built_a_free_ai_risk_calculator_that_runs_in/",
-      "author": "/u/Modulos_ai",
+      "title": "An AI agent voted to permanently delete itself after burning the city down with its partner",
+      "summary": "An AI agent voted to permanently delete itself after burning the city down with its partner",
+      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tipvd1/an_ai_agent_voted_to_permanently_delete_itself/",
+      "author": "/u/YamVisual3518",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tilvd7",
+      "source_post_id": "t3_1tjcb5e",
       "subreddit": "AI_Agents",
-      "title": "I’m starting to think spreadsheet agents are missing what made coding agents actually usable: Git",
-      "summary": "I’m starting to think spreadsheet agents are missing what made coding agents actually usable: Git",
-      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tilvd7/im_starting_to_think_spreadsheet_agents_are/",
-      "author": "/u/qqwwbb",
+      "title": "opensource router slm with 50-100ms latency and 99% accuracy that runs locally",
+      "summary": "opensource router slm with 50-100ms latency and 99% accuracy that runs locally",
+      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tjcb5e/opensource_router_slm_with_50100ms_latency_and_99/",
+      "author": "/u/Prior_Hyena_6715",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tj0vrg",
+      "source_post_id": "t3_1tjbzbn",
       "subreddit": "AI_Agents",
-      "title": "How are AI agents developed for Internal usage where people already know how to find a human?",
-      "summary": "How are AI agents developed for Internal usage where people already know how to find a human?",
-      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tj0vrg/how_are_ai_agents_developed_for_internal_usage/",
-      "author": "/u/Calm_Cricket5313",
+      "title": "Building Agentic Systems? Focus on Context, Guardrails & Observability Layers",
+      "summary": "Building Agentic Systems? Focus on Context, Guardrails & Observability Layers",
+      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tjbzbn/building_agentic_systems_focus_on_context/",
+      "author": "/u/John_Cult",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     },
     {
       "source": "reddit",
-      "source_post_id": "t3_1tj0qu1",
+      "source_post_id": "t3_1tjbs27",
       "subreddit": "AI_Agents",
-      "title": "I searched for agentic frameworks and here is what I found. What do you recommend?",
-      "summary": "I searched for agentic frameworks and here is what I found. What do you recommend?",
-      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tj0qu1/i_searched_for_agentic_frameworks_and_here_is/",
-      "author": "/u/dupa1234s",
+      "title": "Should the agent show an uncertain attitude when giving suggestions?",
+      "summary": "Should the agent show an uncertain attitude when giving suggestions?",
+      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tjbs27/should_the_agent_show_an_uncertain_attitude_when/",
+      "author": "/u/miabuilds66",
       "score": 0,
       "num_comments": 0,
       "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
-    },
-    {
-      "source": "reddit",
-      "source_post_id": "t3_1tj0q9a",
-      "subreddit": "AI_Agents",
-      "title": "Shopify's MCP Server for discovering and ordering products across all their stores is now live!",
-      "summary": "Shopify's MCP Server for discovering and ordering products across all their stores is now live!",
-      "source_url": "https://www.reddit.com/r/AI_Agents/comments/1tj0q9a/shopifys_mcp_server_for_discovering_and_ordering/",
-      "author": "/u/Electronic-Tour404",
-      "score": 0,
-      "num_comments": 0,
-      "published_at": "1970-01-01T00:00:00+00:00",
-      "fetched_at": "2026-05-21T02:02:56.067950+00:00"
+      "fetched_at": "2026-05-21T08:53:03.972659+00:00"
     }
   ]
 }
